@@ -12,15 +12,19 @@ Una vez que Docker está instalado, sigue estos pasos para ejecutar el proyecto:
 
 1. Clona este repositorio en tu sistema local.
 
-2. Abre una terminal y navega hasta el directorio raíz del proyecto.
+    ```
+    https://github.com/logan6230/ejercicio-docker.git
+    ```
 
-3. Ejecuta el siguiente comando para construir la imagen Docker:
+3. Abre una terminal y navega hasta el directorio raíz del proyecto.
+
+4. Ejecuta el siguiente comando para construir la imagen Docker:
 
     ```
     docker build -t react-docker:1.0.0 .
     ```
 
-4. Una vez que la imagen se haya construido correctamente, ejecuta el siguiente comando para iniciar un contenedor basado en la imagen:
+5. Una vez que la imagen se haya construido correctamente, ejecuta el siguiente comando para iniciar un contenedor basado en la imagen:
 
     ```
     docker run -p 3000:3000 nombre_de_la_imagen
